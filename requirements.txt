@@ -1,0 +1,14 @@
+# Runtime dependencies imported by app.py.
+# Versions are intentionally not fabricated here. For an evidentiary release,
+# install successfully in the target environment and preserve an exact freeze
+# in evidence/environment_freeze.txt.
+streamlit
+numpy
+pandas
+plotly
+scikit-learn
+prophet
+statsmodels
+xgboost
+tensorflow
+openpyxl
