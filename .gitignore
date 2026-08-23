@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets / local configuration
+.streamlit/secrets.toml
+
+# Temporary files
+*.tmp
+*.log
+~$*.xlsx
+
+# Do NOT ignore evidence/ or committed validation outputs intended for review.
