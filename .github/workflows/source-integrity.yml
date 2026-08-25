@@ -1,0 +1,16 @@
+name: Source Integrity and Syntax
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify unchanged application source hash
+        run: echo "28dbcd30bd48df4f659ea4b44c87cb1de263989182d4316df7262a0b7c23a87f  app.py" | sha256sum -c -
+      - name: Compile Python source
+        run: python -m py_compile app.py

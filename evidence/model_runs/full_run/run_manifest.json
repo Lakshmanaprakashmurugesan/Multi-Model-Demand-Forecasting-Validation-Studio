@@ -2,8 +2,8 @@
   "run_type": "sidecar execution of exact forecasting definitions from unchanged app.py",
   "app_sha256": "28dbcd30bd48df4f659ea4b44c87cb1de263989182d4316df7262a0b7c23a87f",
   "app_path": "app.py",
-  "started_utc": "2026-08-18T01:57:25.808437+00:00",
-  "ended_utc": "2026-08-18T01:59:03.963249+00:00",
+  "started_utc": "2026-08-25T02:02:55.954534+00:00",
+  "ended_utc": "2026-08-25T02:06:05.402542+00:00",
   "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
   "platform": "Windows-11-10.0.26200-SP0",
   "models_requested": [

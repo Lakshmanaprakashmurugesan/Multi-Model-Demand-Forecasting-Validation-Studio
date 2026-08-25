@@ -1,7 +1,7 @@
 {
   "run_type": "repository static/integrity validation",
-  "started_utc": "2026-08-20T02:24:12.344419+00:00",
-  "ended_utc": "2026-08-20T02:24:12.423888+00:00",
+  "started_utc": "2026-08-25T02:06:23.528786+00:00",
+  "ended_utc": "2026-08-25T02:06:23.591686+00:00",
   "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
   "platform": "Windows-11-10.0.26200-SP0",
   "app_sha256": "28dbcd30bd48df4f659ea4b44c87cb1de263989182d4316df7262a0b7c23a87f",
@@ -75,7 +75,7 @@
     },
     {
       "check": "directory_.github_workflows",
-      "status": "PASS",
+      "status": "FAIL",
       "detail": ".github/workflows"
     }
   ]

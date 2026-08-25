@@ -17,7 +17,7 @@
 - directory_sample_data: **PASS** — sample_data
 - directory_tools: **PASS** — tools
 - directory_tests: **PASS** — tests
-- directory_.github_workflows: **PASS** — .github/workflows
+- directory_.github_workflows: **FAIL** — .github/workflows
 
 ## Meaning of this report
 This report proves repository integrity, syntax compilation, expected source structure, and evidence-package presence. It is not a substitute for full model execution or independent third-party validation.
