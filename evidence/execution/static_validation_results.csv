@@ -12,4 +12,4 @@ directory_screenshots,PASS,screenshots
 directory_sample_data,PASS,sample_data
 directory_tools,PASS,tools
 directory_tests,PASS,tests
-directory_.github_workflows,FAIL,.github/workflows
+directory_.github_workflows,PASS,.github/workflows
