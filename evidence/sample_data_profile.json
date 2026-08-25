@@ -1,0 +1,13 @@
+{
+  "status": "ACTUAL_PROFILE_OF_COMMITTED_SYNTHETIC_INPUT",
+  "file": "sample_data/synthetic_telecom_equipment_demand.csv",
+  "rows": 730,
+  "start_date": "2024-01-01",
+  "end_date": "2025-12-30",
+  "demand_mean": 204.8991,
+  "demand_std": 30.3232,
+  "demand_min": 120.34,
+  "demand_max": 301.61,
+  "random_seed": 42,
+  "classification": "synthetic"
+}

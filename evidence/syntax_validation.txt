@@ -1,0 +1,4 @@
+Validation date: 2026-08-15
+Command: python -m py_compile app.py
+Result: PASS
+Scope: syntax compilation only; this does not establish full runtime execution or model-performance results.

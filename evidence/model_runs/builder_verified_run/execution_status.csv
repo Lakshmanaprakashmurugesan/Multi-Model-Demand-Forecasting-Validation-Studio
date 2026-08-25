@@ -1,0 +1,3 @@
+model,status,started_utc,ended_utc,duration_seconds,error
+XGBoost,PASS,2026-08-16T01:05:36.212198+00:00,2026-08-16T01:05:37.399694+00:00,1.187,
+Holt-Winters,PASS,2026-08-16T01:05:37.399716+00:00,2026-08-16T01:05:37.675021+00:00,0.275,

@@ -1,0 +1,14 @@
+app_source_integrity: PASS
+python_compile: PASS
+expected_function_inventory: PASS
+requirements_present: PASS
+synthetic_sample_present: PASS
+synthetic_sample_readable: PASS
+directory_docs: PASS
+directory_evidence: PASS
+directory_results: PASS
+directory_screenshots: PASS
+directory_sample_data: PASS
+directory_tools: PASS
+directory_tests: PASS
+directory_.github_workflows: PASS

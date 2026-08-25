@@ -1,0 +1,11 @@
+package,source_usage,purpose
+numpy,direct import,"numerical arrays, random demo data"
+pandas,direct import,"time-series frames, dates, exports"
+plotly,direct import,interactive charts
+streamlit,direct import,application UI
+scikit-learn,direct import,"metrics, scaling"
+prophet,optional import,Prophet forecasting
+statsmodels,optional import,Holt-Winters
+xgboost,optional import,XGBoost regression
+tensorflow,lazy optional import,LSTM neural network
+openpyxl,Excel writer engine,XLSX export

@@ -1,0 +1,49 @@
+{
+  "run_type": "sidecar execution of exact forecasting definitions from unchanged app.py",
+  "app_sha256": "28dbcd30bd48df4f659ea4b44c87cb1de263989182d4316df7262a0b7c23a87f",
+  "app_path": "app.py",
+  "started_utc": "2026-08-18T01:57:25.808437+00:00",
+  "ended_utc": "2026-08-18T01:59:03.963249+00:00",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "models_requested": [
+    "Prophet Baseline",
+    "Prophet + US Holidays",
+    "XGBoost",
+    "LSTM",
+    "Holt-Winters"
+  ],
+  "models_passed": [
+    "Prophet Baseline",
+    "Prophet + US Holidays",
+    "XGBoost",
+    "LSTM",
+    "Holt-Winters"
+  ],
+  "failures": {},
+  "dataset": "app.py built-in deterministic demo data",
+  "dataset_rows": 900,
+  "data_audit": {
+    "invalid_dates_removed": 0,
+    "invalid_targets_removed": 0,
+    "duplicate_timestamps_aggregated": 0,
+    "missing_periods_inserted": 0
+  },
+  "holdout_percent": 20,
+  "forecast_horizon": 30,
+  "frequency": "Daily",
+  "random_seed": 42,
+  "package_versions": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "plotly": "6.9.0",
+    "scikit-learn": "1.9.0",
+    "prophet": "1.4.0",
+    "statsmodels": "0.14.6",
+    "xgboost": "3.4.1",
+    "tensorflow": "2.21.0",
+    "openpyxl": "3.1.5",
+    "streamlit": "1.61.1"
+  },
+  "source_modified_by_runner": false
+}
