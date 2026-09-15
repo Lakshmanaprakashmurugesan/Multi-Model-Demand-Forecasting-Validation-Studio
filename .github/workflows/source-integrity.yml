@@ -1,4 +1,4 @@
-name: Source Integrity and Syntax
+name: Source Integrity and Tests
 
 on:
   push:
@@ -8,9 +8,31 @@ on:
 jobs:
   verify:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
       - name: Verify unchanged application source hash
         run: echo "28dbcd30bd48df4f659ea4b44c87cb1de263989182d4316df7262a0b7c23a87f  app.py" | sha256sum -c -
+
       - name: Compile Python source
         run: python -m py_compile app.py
+
+      - name: Install pytest
+        run: python -m pip install pytest
+
+      - name: Run repository tests
+        run: python -m pytest -q
+
+      - name: Install forecasting smoke-test dependencies
+        run: |
+          python -m pip install numpy pandas plotly scikit-learn statsmodels xgboost openpyxl
+
+      - name: Run forecasting smoke test
+        run: |
+          python tools/model_execution_runner.py --models "XGBoost,Holt-Winters" --output-dir evidence/model_runs/ci_smoke_run
